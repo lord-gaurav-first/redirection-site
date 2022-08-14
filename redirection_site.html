@@ -68,12 +68,13 @@
 
             // }
             var num;
-//             function redirect(num){
-//                 site = `https://${data["sheet1"][num%10]["siteUrl"]}`
+            function redirect(num){
+                site = `https://${data["sheet1"][num%10]["siteUrl"]}`
 //                 setTimeout(function(){
 //                     window.open(site);
 //                 }, 1000)
-//             }
+                window.location.href = site;
+               }
             var data;
 
             data = 
